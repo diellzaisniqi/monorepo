@@ -5,18 +5,25 @@
     <title>Document</title>
 </head>
 <body>  
-<div id="checkboxContainer">
-<input type="checkbox" value="Internship" id="checkboxInternship"><label for="checkboxInternship">Internship</label>
-<input type="checkbox" value="Pabau" id="checkboxPabau"><label for="checkboxPabau">Pabau</label>
-<input type="checkbox" value="Employment" id="checkboxEmployment"><label for="checkboxEmployment">Employment</label>
-<input type="checkbox" value="Career" id="checkboxCareer"><label for="checkboxCareer">Career</label>
-</div>
+    <div id="checkboxContainer">
+        <div class="checkbox-pair">
+            <input type="checkbox" value="Internship" id="checkboxInternship"><label for="checkboxInternship">Internship</label>
+        </div>
+        <div class="checkbox-pair">
+            <input type="checkbox" value="Pabau" id="checkboxPabau"><label for="checkboxPabau">Pabau</label>
+        </div>
+        <div class="checkbox-pair">
+            <input type="checkbox" value="Employment" id="checkboxEmployment"><label for="checkboxEmployment">Employment</label>
+        </div>
+        <div class="checkbox-pair">
+            <input type="checkbox" value="Career" id="checkboxCareer"><label for="checkboxCareer">Career</label>
+        </div>
+    </div>
 
-<button onclick="shuffleValues()">Shuffle Values</button>
-<button onclick="changeValues()">Change Values</button>
-<button onclick="showSelectedValues()">Show Selected Values</button>
+    <button onclick="shuffleValues()">Shuffle Values</button>
+    <button onclick="changeValues()">Change Values</button>
+    <button onclick="showSelectedValues()">Show Selected Values</button>
 
-
-<script src="index.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
